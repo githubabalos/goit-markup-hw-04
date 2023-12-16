@@ -25,6 +25,7 @@
 :root{
     --background: #FFFFFF;
     --fillers: #f4f4fd;
+    --color: #8e8f99;
 }
 
 body{
@@ -296,6 +297,43 @@ span{
     padding: 120px 0;
 }
 
+.fifth-section{
+    padding: 120px 0 120px;
+}
+
+.cus-head{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.cus-list{
+    display: flex;
+    gap: 24px;
+}
+
+.cus-item{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.cus-link{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color);
+}
+
+.cus-link:hover , .cus-link:focus{
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
 .name-title{
     padding: 32px 0;
 }
@@ -365,6 +403,10 @@ span{
     margin-bottom: 8px;
 }
 
+.cus-icon{
+    fill: currentColor;
+}
+
 /* social media css */
 
 .soc-med{
@@ -395,3 +437,4 @@ span{
 .icon-soc-med{
     fill: var(--fillers);
 }
+
